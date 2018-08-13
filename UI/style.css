@@ -1,0 +1,276 @@
+
+   body{
+   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(ope.jpg);
+   height: 100%;
+   width: 100px;
+   background-size: cover;
+   background-position: center;
+   }
+
+   h1{
+   color: 1DFF21;
+   }
+
+   .login-page,.register-page{
+   width: 360px;
+   padding: 250 450 0;
+   margin: auto;
+   position: fixed;
+   }
+
+   .dashboard{
+   padding: 0;
+   }
+
+
+   .dashboard li{
+   list-style-type: none;
+   }
+
+   .dashboard ul{
+   padding: 0;
+   }
+
+   .dashboard h5{
+   color: FF6620;
+   }
+
+   .dashboard h4{
+   color:142CFF;
+   }
+
+
+   .heading{
+   top: 48;
+   position: fixed;
+   width: 100%;
+   padding: 0.1% 0 0;
+   margin: auto;
+   background-color: FF4719;
+   }
+
+   .form{
+   position: relative;
+   z-index: 1;
+   background: rgba(7, 40, 195,0.8);
+   max-width: 360px;
+   margin: 0 auto 100px;
+   padding: 45px;
+   text-align: center;
+   }
+
+   .form input{
+   font-family: "Roboto", sans-serif;
+   outline: 1;
+   background: #f2f2f2;
+   width: 100%;
+   border: 0;
+   margin: 0 0 15px;
+   padding: 15px;
+   box-sizing: border-box;
+   font-size: 14px;
+   }
+
+   .form button{
+   font-family: "Roboto", sans-serif;
+   text-transform: uppercase;
+   outline: 0;
+   background: #4CAF50;
+   width: 100%;
+   border: 0;
+   padding: 15px;
+   color: #FFFFFF;
+   font-size: 14px;
+   cursor: pointer;
+   }
+
+   .form button:hover,.form button:active{
+   background: #43A047;
+   }
+
+   .form .message{
+   margin: 15px 0 0;
+   color: aliceblue;
+   form-size: 12px;
+   }
+
+   .form .message a{
+   color: #4CAF50;
+   text-decoration: none;
+   }
+
+    .navbar li{
+    float: left;
+    }
+
+    .navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+    .navbar li a:hover:not(.active){
+    background-color: #111;
+    }
+
+
+    .navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    }
+
+
+   .answer {
+   margin-top: 1px;
+   }
+
+   .question{
+   margin-left: 0px;
+   position: fixed;
+   margin-top: -24px;
+   }
+  textarea {
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 400px;
+  }
+
+  label{
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  }
+
+  .content{
+  margin-left:50px;
+  width: 250%;
+  padding: 9% 0 0;
+  }
+
+  .row{
+  height: 100%;
+  background-color: #2ecc71;
+  width: 100%;
+  margin-top: 132px;
+  position: fixed;
+  }
+
+  .pic_base{
+  height: 32%;
+  background-color: #34495e;
+  background: url(open.jpg);
+  background-size: cover;
+  }
+
+
+  #profile_pic{
+  border-radius: 100%;
+  border: 2px solid #34495e;
+  box-shadow: 0 2px 2px black;
+  box-sizing: border-box;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 20px;
+  }
+
+  .info{
+  list-style-type: none;
+  position: absolute;
+  font-family: verdena;
+  font-size: 40px;
+  margin-left: 180px;
+  margin-top: -5px;
+  color: #FF4719;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+
+  }
+
+
+  #pic_base h2{
+  right: 0;
+  font-family: verdana;
+  }
+
+  #Number_of_questions_asked, #Number_Answers_Given{
+  color: #ecf0f1;
+  font-size: 30px;
+  }
+
+  #content{
+  list-style-type: none;
+  padding-top: 0px;
+  padding-right: 10px;
+  font-family: 'Exo 2', sans-serif;
+  float: right;
+  color: #FF3B8D;
+  }
+
+  #title, #title1{
+  font-size: 20px;
+  color: #FF3B8D;
+  }
+
+  #heading1, #heading2{
+  color: #ecf0f1;
+  }
+
+  #content li a{
+  color: #FF3B8D;
+  text-decoration: none;
+  }
+
+  #title a{
+  color: #FF3B8D;
+  text-decoration: none;
+  }
+
+  #title1 a{
+  color: #FF3B8D;
+  text-decoration: none;
+  }
+
+  #content1{
+  list-style-type: none;
+  padding-top: 80px;
+  padding-left: 10px;
+  font-family: 'Exo 2', sans-serif;
+  float: left;
+  color: #FF3B8D;
+  }
+
+  #content1 li a{
+  color: #FF3B8D;
+  text-decoration: none;
+  }
+
+   .footer{
+   float: bottom;
+   position-fixed: bottom;
+   width: 100%;
+   height: 5%;
+   padding: 0.1% 0 0;
+   margin: auto;
+   background-color: FF4719;
+   }
+
+   #head{
+   margin-top: 130px;
+   position: fixed;
+   }
+
+   .container{
+   margin-top:160px;
+   }
+
+   #welcome{
+   text-align: center;
+   }
