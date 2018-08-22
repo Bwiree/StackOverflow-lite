@@ -2,12 +2,10 @@
   height: 100%;
   background-color: #2ecc71;
   width: 100%;
-  margin-top: 132px;
-  position: fixed;
   }
 
   .pic_base{
-  height: 32%;
+  height: 20%;
   background-color: #34495e;
   background: url(open.jpg);
   background-size: cover;
@@ -26,7 +24,6 @@
 
   .info{
   list-style-type: none;
-  position: absolute;
   font-family: verdena;
   font-size: 40px;
   margin-left: 180px;
@@ -45,7 +42,7 @@
 
   #Number_of_questions_asked, #Number_Answers_Given{
   color: #ecf0f1;
-  font-size: 30px;
+
   }
 
   #title, #title1{
@@ -74,7 +71,6 @@
   padding-top: 80px;
   padding-left: 10px;
   font-family: 'Exo 2', sans-serif;
-  float: left;
   color: #FF3B8D;
   }
 
