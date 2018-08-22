@@ -2,26 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>StackOverflow-lite</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/profile.css">
 </head>
 <body>
-<nav class="navbar">
-<ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="#about">About</a></li>
-  <li><a href="profile.html">Profile</a></li>
-  <li style="float:right"><a href="index.html">Logout</a></li>
-  <li style="float:right"><a href="dashboard.html">Dashboard</a></li>
-</ul>
-</nav>
+<div class="nav">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li style="float:right"><a href="index.html">Logout</a></li>
+        <li style="float:right"><a href="dashboard.html">Dashboard</a></li>
+        <div class="search"><input type="text" name="search" placeholder="Search Question.."></div>
+    </ul>
+</div>
         <div class="heading">
             <h1>StackOverflow-lite</h1>
             <hr>
         </div>
 <div class="row">
         <div class="pic_base">
-            <a href="#"><img src="bwire.jpg" width="200" id="profile_pic" alt=""></a>
+            <a href="#"><img src="static/bwire.jpg" width="200" id="profile_pic" alt=""></a>
         </div>
         <div class="content_base">
             <ul class="info">
