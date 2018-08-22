@@ -22,22 +22,6 @@
    padding: 0;
    }
 
-   .dashboard li{
-   list-style-type: none;
-   }
-
-   .dashboard ul{
-   padding: 0;
-   }
-
-   .dashboard h5{
-   color: FF6620;
-   }
-
-   .dashboard h4{
-   color:142CFF;
-   }
-
 
    .heading{
    top: 48;
@@ -108,6 +92,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    float: none;
     }
 
     .navbar li a:hover:not(.active){
@@ -272,4 +257,27 @@
 
    #welcome{
    text-align: center;
+   }
+   .dashboard li{
+   list-style-type: none;
+   }
+
+   .dashboard ul{
+   padding: 0;
+   }
+
+   .dashboard h5{
+   color: FF6620;
+   }
+
+   .dashboard h4{
+   color:142CFF;
+   }git sta
+
+
+   @media(max-width: 768px){
+   header.brand, body, .form, .heading, .dashboard, .dashboard ul, .navbar, .navbar ul li a{
+   float: none;
+   width: 100%;
+   }
    }
