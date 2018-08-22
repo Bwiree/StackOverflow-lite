@@ -2,27 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>StackOverflow-lite</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="alternate stylesheet" type="text/css" href="dashboard.scss">
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <link rel="stylesheet" type="text/css" href="static/dashboard.css">
 </head>
 <body>
-<nav class="navbar">
-<ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="#about">About</a></li>
-  <li><a href="profile.html">Profile</a></li>
-  <li style="float:right"><a href="index.html">Logout</a></li>
-</ul>
-</nav>
-        <div class="heading">
-            <h1>StackOverflow-lite</h1>
-            <hr>
-        </div>
-    <form  class="content" method="POST" action="">
-        <h2 id="head">Recently Asked Questions</h2>
-     <div class="container">
-         <div class="dashboard">
+<div class="nav">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li style="float:right"><a href="index.html">Logout</a></li>
+        <div class="search"><input type="text" name="search" placeholder="Search Question.."></div>
+    </ul>
+</div>
+<div class="heading">
+    <h1>StackOverflow-lite</h1>
+    <hr>
+</div>
+<div class="platform">
+    <strong>Recently Asked Questions</strong>
+            <div class="dashboard">
             <ul>
                 <h4>
                 <label>James</label>
@@ -30,11 +31,11 @@
                     <ul>
                         <h5>
                         <label>Sharon</label>
-                        <li>Just folow the link to your profile, then click edit profile"</li>
+                        <li>Just folow the link to your profile, then click edit profile"<button class="vote">26Votes</button></li>
                         <label>George</label>
-                        <li>Ooops buddy, just ask Google!</li>
+                        <li>Hey man, I just don't give a damn!<button class="vote">0Votes</button></li>
                         <label>Lorna</label>
-                        <li>Ooops buddy, just ask Google!</li>
+                        <li>Ooops buddy, just ask Google!<button class="vote">5Votes</button></li>
                     <div class="answer">
                         <form action="" method="post">
                             <label>Bwire</label>
@@ -65,18 +66,17 @@
                             <input name="submit" type="submit" value="Answer" />
                         </form>
                     </div>
+                        <div class="question" id="question">
+                            <form action="" method="POST">
+                                <label>Bwire</label>
+                                <textarea required="required"></textarea>
+                                <input name="submit" type="submit" value="Ask" />
+                            </form>
+                        </div>
                     </ul>
                 </h4>
             </ul>
         </div>
-                    <div class="question" id="question">
-                        <form action="" method="POST">
-                            <label>Bwire</label>
-                            <textarea required="required"></textarea>
-                            <input name="submit" type="submit" value="Ask" />
-                        </form>
-                    </div>
-     </div>
-    </form>
+</div>
 </body>
 </html>
