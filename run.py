@@ -1,7 +1,7 @@
-from app.models import create_app
-from instance.config import DevelopmentConfig
+from my_api.instance import config
+from my_api.instance import config
 
-app = create_app(DevelopmentConfig)
+app = create_app(config.DevelopmentConfig)
 
 if __name__ == '__main__':
     app.run()
