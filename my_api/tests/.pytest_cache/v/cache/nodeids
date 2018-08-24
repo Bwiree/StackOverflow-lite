@@ -1,0 +1,9 @@
+[
+  "test_StackOverflow.py::TestStackOverflow::test_Invalid_question_added_spaces",
+  "test_StackOverflow.py::TestStackOverflow::test_get_a_question",
+  "test_StackOverflow.py::TestStackOverflow::test_get_questions",
+  "test_StackOverflow.py::TestStackOverflow::test_post_question",
+  "test_StackOverflow.py::TestStackOverflow::test_question_not_existing",
+  "test_StackOverflow.py::TestStackOverflow::test_question_not_found_for_added_answer",
+  "test_StackOverflow.py::TestStackOverflow::test_question_not_string"
+]
