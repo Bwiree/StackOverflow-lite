@@ -3,6 +3,7 @@ click==6.7
 configparser==3.5.0
 Flask==1.0.2
 Flask-API==1.0
+Flask-RESTful==0.3.6gi
 Flask-WTF==0.14.2
 future==0.16.0
 futures==3.2.0
