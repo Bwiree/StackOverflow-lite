@@ -9,4 +9,4 @@ StackOverflow-lite is a platform where people can ask questions and provide answ
 . python
 . HTML
 . Js
-# Instatlations
+# Instalations
