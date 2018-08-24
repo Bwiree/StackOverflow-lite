@@ -1,0 +1,9 @@
+[
+  "my_api/tests/test_StackOverflow.py::TestStackOverflow::test_Invalid_question_added_spaces",
+  "my_api/tests/test_StackOverflow.py::TestStackOverflow::test_get_a_question",
+  "my_api/tests/test_StackOverflow.py::TestStackOverflow::test_get_questions",
+  "my_api/tests/test_StackOverflow.py::TestStackOverflow::test_post_question",
+  "my_api/tests/test_StackOverflow.py::TestStackOverflow::test_question_not_existing",
+  "my_api/tests/test_StackOverflow.py::TestStackOverflow::test_question_not_found_for_added_answer",
+  "my_api/tests/test_StackOverflow.py::TestStackOverflow::test_question_not_string"
+]
