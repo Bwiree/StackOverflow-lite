@@ -1,13 +1,13 @@
 language: python
 
 python:
-  - 2.7
+  - 3.6
 
 install:
     - pip install -r requirements.txt
 
-script:p
-    - my_api/tests/test_StackOverflow.py
+script:
+    - nose2
 
 
 after_success:

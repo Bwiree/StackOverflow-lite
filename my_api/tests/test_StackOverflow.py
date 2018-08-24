@@ -17,23 +17,23 @@ class TestStackOverflow(unittest.TestCase):
                                             create_date='24-12-2018 11:10', answers=[]))
             response = client.get(BASE_URL)
             self.assertEqual(response.status_code, 200)
-
-    def test_get_a_question(self):
-        with self.client as client:
-            client.post(BASE_URL, json=dict(questionId=1, question='What is programming?', author='Bwire',
-                                            create_date='24-12-2018 11:10', answers=[]))
-            response = client.get(BASE_URL+'/1', json=dict(questionId=1))
-            self.assertEqual(response.status_code,200)
+    #
+    # def test_get_a_question(self):
+    #     with self.client as client:
+    #         client.post(BASE_URL, json=dict(questionId=1, question='What is programming?', author='Bwire',
+    #                                         create_date='24-12-2018 11:10', answers=[]))
+    #         response = client.get(BASE_URL+'/1', json=dict(questionId=1))
+    #         self.assertEqual(response.status_code,200)
 
     def test_question_not_existing(self):
         with self.client as client:
             response = client.get(BASE_URL+'/5', json=dict(questionId=1))
             self.assertEqual(response.status_code, 404)
 
-    def test_post_question(self):
-        with self.client as client:
-            response = client.post(BASE_URL, json=dict(question='How many programmers designed facebook?', author='Mike', create_date='234556776', answers=['It think twenty two']))
-            self.assertEqual(response.status_code,201)
+    # def test_post_question(self):
+    #     with self.client as client:
+    #         response = client.post(BASE_URL, json=dict(question='How many programmers designed facebook?', author='Mike', create_date='234556776', answers=['It think twenty two']))
+    #         self.assertEqual(response.status_code,201)
 
     def test_question_not_found_for_added_answer(self):
         with self.client as client:
