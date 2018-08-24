@@ -7,7 +7,7 @@ install:
     - pip install -r requirements.txt
 
 script:p
-    - pytest
+    - my_api/tests/test_StackOverflow.py
 
 
 after_success:
