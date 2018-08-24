@@ -44,9 +44,9 @@ class TestStackOverflow(unittest.TestCase):
     def test_question_not_string(self):
         with self.client as client:
             response = client.post(BASE_URL, json=dict(question=100000, author='Celine'))
-            self.assertEqual(response.status_code, 406)
+            self.assertEqual(response.status_code, 422)
 
     def test_Invalid_question_added_spaces(self):
         with self.client as client:
             response = client.post(BASE_URL, json=dict(question='       ', author='Solomon'))
-            self.assertEqual(response.status_code, 406)
+            self.assertEqual(response.status_code, 422)

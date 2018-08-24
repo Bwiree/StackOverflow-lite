@@ -28,7 +28,7 @@ class QuestionsBox(Resource):
         if isinstance(request_data['question'], str) and not request_data['question'].isspace() and len(request_data['question'])>0:
             questions.append(qn)
             return make_response(jsonify({'message':'Question Added'}), 201)
-        return make_response(jsonify({'message': 'Invalid Question input'}), 406 )
+        return make_response(jsonify({'message': 'Invalid Question input'}), 422)
 
 
 api.add_resource(QuestionsBox, '/questions')
@@ -54,7 +54,7 @@ class AddAnswer(Resource):
                 if isinstance(request_data['answers'], str) and not answer.isspace() and len(answer)>0:
                     question['answers'].append(answer)
                     return make_response(jsonify({'message':'Answer has been addded'}), 201)
-                return make_response(jsonify({'message':'Invalid answer'}), 406)
+                return make_response(jsonify({'message':'Invalid answer'}), 422)
         return make_response(jsonify({'message':'question not found'}), 404)
 
 
