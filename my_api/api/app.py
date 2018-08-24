@@ -1,7 +1,7 @@
 import datetime
 
 from flask import request, jsonify, make_response, Blueprint
-from flask_restful import Api, Resource
+from flask_restful import Resource, Api
 
 blue_print = Blueprint('qns_bp', __name__, url_prefix='/api/v1')
 
