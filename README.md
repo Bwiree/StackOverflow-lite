@@ -6,6 +6,9 @@ StackOverflow-lite is a platform where people can ask questions and provide answ
 
 # Requirements
 . Development enviroment(I used pycharm)
+git
+postman
+Internet
 
 # Languages
 . python 
@@ -16,3 +19,26 @@ In your terminal run the following commands
 .pip install Flask-RESTful
 .pip install FLASK-API
 .pip install pytest
+
+# Project Links
+User Interface: The user interface pages for this project are hosted on gh-pages. Follow this link (https://github.com/Bwiree/StackOverflow-lite/tree/gh-pages)
+
+API endpoints: The link to the API-feature branch with the code: (https://github.com/Bwiree/StackOverflow-lite/tree/api-feature)
+
+# Project Functionality.
+User interface
+
+User can sign-up for a new account and log-in.
+User can search for questions posted on the platform.
+User can view recently posted questions.
+User can upvote an answer.
+User can post a question.
+User can post an answer to a question.
+User can see the most answered questions.
+
+API endpoints
+
+Fetch all questions.
+Post a question.
+Get a specific question.
+Post an answer to a question.
